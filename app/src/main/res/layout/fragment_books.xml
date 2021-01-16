@@ -5,12 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".BooksFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Books Fragment"
-        android:textSize="20dp"
-        android:gravity="center"
-        android:textColor="@color/colorBlack"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:text="Add a booklist" />
 
 </FrameLayout>
